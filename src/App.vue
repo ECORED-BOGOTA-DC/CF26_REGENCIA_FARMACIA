@@ -39,7 +39,7 @@ export default {
 .curso-main-container > .container
   overflow-x: clip !important
 .titulo-segundo:after
-  border-left-color: #FFB30B !important
+  border-left-color: #00BCD4 !important
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #12263F !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
