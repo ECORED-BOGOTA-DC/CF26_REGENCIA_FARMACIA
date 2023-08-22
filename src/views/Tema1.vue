@@ -343,7 +343,7 @@
         .p-4.h-100.d-flex.flex-wrap(style="border:5px #8CBCFA solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
           .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
             span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#8CBCFA;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 1
-          h5.mb-0.text-center.mt-5(data-aos="zoom-in") Defecto crítico: 
+          h5.mb-0.text-center.mt-5(data-aos="zoom-in") Defecto crítico
           p.mb-5.mt-4(data-aos="zoom-in") Es el que afecta completamente la capacidad de uso del producto o pone en riesgo la vida del paciente o usuario, por lo cual se considera peligroso e inseguro. Cuando un producto tiene un defecto crítico inmediatamente es rechazado (1.0%).
       .col-lg.mb-5
         .p-4.h-100.d-flex.flex-wrap(style="border:5px #00BCD4 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
@@ -385,24 +385,24 @@
     p.mt-4(data-aos="fade-up") El paso a paso para realizar el muestreo por medio de las tablas militares es:
 
     TabsA.color-acento-botones.mt-5
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 1: Definir la magnitud del lote" style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 1: definir la magnitud del lote" style="background-color:#D9F5F9;")
         h5 PASO 1: Definir la magnitud del lote
         p.mt-4 Identificar y separar por lotes los productos que serán inspeccionados. 
         figure.mt-4
           img(src="@/assets/curso/tema1/9.png")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 2: Establecer el nivel de inspección" style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 2: establecer el nivel de inspección" style="background-color:#D9F5F9;")
         h5 PASO 2: Establecer el nivel de inspección
         p.mt-4 Definir si el lote será inspeccionado bajo los niveles especiales (S1, S2, S3 y S4) o generales (I bajo, II general, y III estricto).
         p.mt-4 Se muestra la tabla de códigos de tamaño de muestra (se aplica para los pasos 1 y 2). 
         figure.mt-4
           img(src="@/assets/curso/tema1/8.svg")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 3: Seleccionar el plan de muestreo" style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 3: seleccionar el plan de muestreo" style="background-color:#D9F5F9;")
         h5 PASO 3: Seleccionar el plan de muestreo
         p.mt-4 Pueden ser simples, dobles o múltiples y cabe la posibilidad de combinarlos de acuerdo con las necesidades de inspección. En farmacia normalmente se utiliza el simple que consiste en un tamaño de muestra (n) y un número de aceptabilidad (Ac). Al realizar el muestreo se acepta el lote si las unidades con defectos están iguales o por debajo del Ac y se rechaza si están por encima del Ac.
         p.mt-4 #[strong Ejemplo:] el Ac es 3, por lo cual si en la inspección se encuentra con 3 o menos de 3 unidades defectuosas se acepta el lote; pero si por el contrario son 4 o más, se rechaza.
         figure.mt-4
           img(src="@/assets/curso/tema1/10.svg")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 4: Seleccionar el método de muestreo" style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 4: seleccionar el método de muestreo" style="background-color:#D9F5F9;")
         h5 PASO 4: Seleccionar el método de muestreo
         p.mt-4 En este paso se determina cuál será la muestra que se evaluará y para ello existen dos clases de muestreo:
         ul.fa-ul.mt-3
@@ -415,19 +415,19 @@
         p.mt-4 A nivel farmacéutico el que más se utiliza es el probabilístico-muestreo aleatorio simple, que consiste en seleccionar al azar los productos que serán inspeccionados.
         figure.mt-4
           img(src="@/assets/curso/tema1/12.svg")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 5: Determinar el tipo de inspección " style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 5: determinar el tipo de inspección " style="background-color:#D9F5F9;")
         h5 PASO 5: Determinar el tipo de inspección 
         p.mt-4 El tipo de inspección puede ser normal, estricta y reducida. La normal es utilizada cuando no se conoce la calidad de un producto o es adquirido por primera vez. La estricta cuando después de varias revisiones o adquisiciones la calidad de los productos no es la adecuada y la reducida cuando se tiene la certeza de la calidad de los productos y después de varias adquisiciones nunca se ha rechazado un lote.
         p.mt-4 Es importante tener presente que el tipo de inspección puede cambiar en cualquier momento, por lo cual lo más indicado es iniciar con el normal.
         figure.mt-4
           img(src="@/assets/curso/tema1/13.svg")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 6: Determinar el tamaño de la muestra  " style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 6: determinar el tamaño de la muestra  " style="background-color:#D9F5F9;")
         h5 PASO 6: Determinar el tamaño de la muestra  
         p.mt-4 En este paso se debe evidenciar dentro de la tabla de códigos de tamaño de muestra el rango en el cual se ubica la cantidad de productos que se tiene de ese lote a inspeccionar.
         p.mt-4 #[strong Ejemplo:] se tiene un lote de 800 cajas de loratadina 10mg tableta, por lo cual según la tabla de códigos de tamaño de muestra y el nivel general de inspección II, el código de la muestra es la letra “J”.
         figure.mt-4
           img(src="@/assets/curso/tema1/14.svg")
-      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 7: Determinar el nivel de aceptabilidad" style="background-color:#D9F5F9;")
+      .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 7: determinar el nivel de aceptabilidad" style="background-color:#D9F5F9;")
         h5 PASO 7: Determinar el nivel de aceptabilidad  
         p.mt-4 Se utiliza la segunda tabla denominada “Nivel aceptable de calidad NAC”, para los cuales existe una diferente por cada plan de muestreo (simple, doble, múltiple) y cada tipo de inspección (normal, estricta, reducida). Los niveles que se tiene presente son de acuerdo con los defectos (crítico 1.0%, mayor 6.5% y menor 15%) y se aplica la tabla de muestreo simple para inspección normal.
         p.mt-4 Inicialmente, se ubica la letra que fue arrojada en el paso anterior, esta a su vez  muestra el tamaño de la muestra (cantidad de productos a inspeccionar), posterior se marca una línea horizontal hasta el nivel aceptable de calidad (1.0%, 6.5% o 15%) y finalmente desde allí se marca una línea vertical formando una L.

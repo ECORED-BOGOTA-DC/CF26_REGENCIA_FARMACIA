@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Recepción de productos farmacéuticos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia Lanzar la promoción comercial según objetivos y herramientas promocionales para que los aprendices aprendan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presente las características de estos y la normatividad legal vigente.',
+      'En este componente formativo se abordan los conocimientos de la competencia "Lanzar la promoción comercial según objetivos y herramientas promocionales" para que los aprendices conozcan las herramientas necesarias para diseñar las estrategias de mercadeo y venta de los productos farmacéuticos teniendo presentes las características de estos y la normatividad legal vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -169,7 +169,7 @@ export default {
     },
     {
       termino: 'DSSA',
-      significado: 'Dirección Seccional de Salud de Antioquia.',
+      significado: ' Dirección Seccional de Salud de Antioquia.',
     },
     {
       termino: 'EAN',
@@ -189,7 +189,7 @@ export default {
     {
       termino: 'IAC',
       significado:
-        'Instituto Colombiano de Codificación y Automatización Comercial.',
+        ' Instituto Colombiano de Codificación y Automatización Comercial.',
     },
     {
       termino: 'Indeleble',
@@ -217,7 +217,7 @@ export default {
     },
     {
       termino: 'NTC',
-      significado: 'Norma Técnica Colombiana.',
+      significado: ' Norma Técnica Colombiana.',
     },
     {
       termino: 'Pirograbado',
@@ -306,14 +306,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -321,9 +322,43 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Lina Marcela Ayala Pardo',
+          cargo: 'Experta temática',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Gustavo Santis Mancipe',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo desarrollo curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de estilo',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Gloria Lida Alzáte Suárez',
+          cargo: 'Adecuación instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -331,19 +366,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Adriana Marcela Suárez Eljure',
+          cargo: 'Diseño web-2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollo Fullstack-2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -351,14 +401,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación y vinculación al LMS',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

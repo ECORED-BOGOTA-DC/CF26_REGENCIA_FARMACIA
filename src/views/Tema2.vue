@@ -22,7 +22,7 @@
     ul.fa-ul.mt-4
       li.mb-2(data-aos="zoom-in-right")
         i.fas.fa-atom.fa-li(style="color:#7E5EE3 !important;")
-        | Con el código de barras, cada uno de los productos toma una identificación universal.
+        | Cada uno de los productos toma una identificación universal.
       li.mb-2(data-aos="zoom-in-right")
         i.fas.fa-atom.fa-li(style="color:#7E5EE3 !important;")
         | Reduce costos de despacho y recibo.
@@ -42,7 +42,7 @@
         i.fas.fa-atom.fa-li(style="color:#7E5EE3 !important;")
         | Minimiza los errores de costos y precios.
     
-    p.mt-5(data-aos="fade-up") En Colombia, el Instituto Colombiano de Codificación y Automatización Comercial (IAC) es la entidad encargada de otorgar el código de barras de los productos, aunque también existen otros como el EAN que es el europeo.
+    p.mt-5(data-aos="fade-up") En Colombia, el Instituto Colombiano de Codificación y Automatización Comercial (IAC), es la entidad encargada de otorgar el código de barras de los productos, aunque también existen otros como el EAN que es el europeo.
     p.mt-4(data-aos="fade-up") Existen dos códigos de barras, uno de 13 cifras que es el más común y otro de 8 cifras que se utiliza cuando el espacio para la impresión es muy corto. Estos se leen de la siguiente manera:
     ul.fa-ul.mt-4
       li.mb-2(data-aos="zoom-in-right")
@@ -127,7 +127,7 @@
             figure
               img(src='@/assets/curso/tema2/8.png')
     
-    p.mt-5(data-aos="fade-up") Aunque parezca sencillo es una acción que se debe llevar a cabo con cuidado, ya que del correcto manejo de la estiba depende la vida útil de esta y la conservación de los productos. Por lo cual, es importante tener presente las siguientes recomendaciones:
+    p.mt-5(data-aos="fade-up") Aunque parezca sencillo, la selección es una acción que se debe llevar a cabo con cuidado, ya que del correcto manejo de la estiba depende la vida útil de esta y la conservación de los productos. Por lo cual, es importante tener presente las siguientes recomendaciones:
 
     ul.fa-ul.mt-4
       li.mb-2(data-aos="zoom-in-right")
