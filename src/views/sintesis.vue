@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Esquema gráfico que resume lo abordado en el componente formativo, indicando lo relacionado con la recepción de productos farmacéuticos, lo cual se divide en: 1. Recepción de productos que aseguran la calidad y cumplimiento normativo, involucrando: Procedimiento de recibo de productos Acta de recepción Verificación técnica Clasificación de defectos Tabla militar Control del proceso de inspección 2. Equipos y dotación, que tienen elementos clave como: lectores de código de barras y estibas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

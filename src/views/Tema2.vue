@@ -65,7 +65,7 @@
         h5.d-block Figura 1
         span Cómo se lee un código de barras 
       figure.mt-5
-        img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up" alt="Imagen que contiene un código de barras con la numeración 7702004003508, la cual significa: 770: País 2004: Código empresa 00350: Código producto 8: Digito verificación")
 
     Separador.mt-5
 
@@ -83,49 +83,49 @@
             p Sus medidas son de 1200 * 800 mm, está estandarizada por la ISO, es de madera y soporta grandes pesos.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/2.png')
+              img(src='@/assets/curso/tema2/2.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Pallet o estiba americana
             p También es conocida como estiba universal o isopallet, sus medidas son de 1200 * 1000mm y soporta grandes pesos.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/3.png')
+              img(src='@/assets/curso/tema2/3.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Estibas de 4 y 2 entradas
             p Se refiere al número de entradas por donde un montacarga puede introducir la horquilla y transportar la mercancía.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/4.png')
+              img(src='@/assets/curso/tema2/4.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Estibas de madera
             p Son económicas comparadas con otras, se reparan fácilmente; pero son de difícil limpieza y desinfección (no autorizadas para farmacias).
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/5.png')
+              img(src='@/assets/curso/tema2/5.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Estibas de plástico
             p Son de fácil limpieza y desinfección, son ligeras y 100% reciclables.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/6.png')
+              img(src='@/assets/curso/tema2/6.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Estibas de metal
             p Son de fácil limpieza y desinfección, soportan grandes pesos, son resistentes y tienen larga vida de utilidad.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/7.png')
+              img(src='@/assets/curso/tema2/7.png' alt="Imagen decorativa")
         .row
           .col-md-6.col-lg-4.mb-4.mb-md-0
             h5 Estibas de cartón
             p Solo son usadas para cargas ligeras y su vida útil es muy corta.
           .col-md-6.col-lg-8
             figure
-              img(src='@/assets/curso/tema2/8.png')
+              img(src='@/assets/curso/tema2/8.png' alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") Aunque parezca sencillo, la selección es una acción que se debe llevar a cabo con cuidado, ya que del correcto manejo de la estiba depende la vida útil de esta y la conservación de los productos. Por lo cual, es importante tener presente las siguientes recomendaciones:
 
