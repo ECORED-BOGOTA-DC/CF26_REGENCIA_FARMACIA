@@ -75,49 +75,49 @@
     
     .tarjeta.tarjeta--azul.p-4.p-md-5.mt-5.pb-md-4(data-aos="zoom-in")
       SlyderA(tipo="b")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Europaleta
             p Sus medidas son de 1200 * 800 mm, está estandarizada por la ISO, es de madera y soporta grandes pesos.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/2.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Pallet o estiba americana
             p También es conocida como estiba universal o isopallet, sus medidas son de 1200 * 1000mm y soporta grandes pesos.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/3.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de 4 y 2 entradas
             p Se refiere al número de entradas por donde un montacarga puede introducir la horquilla y transportar la mercancía.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/4.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de madera
             p Son económicas comparadas con otras, se reparan fácilmente; pero son de difícil limpieza y desinfección (no autorizadas para farmacias).
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/5.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de plástico
             p Son de fácil limpieza y desinfección, son ligeras y 100% reciclables.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/6.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de metal
             p Son de fácil limpieza y desinfección, soportan grandes pesos, son resistentes y tienen larga vida de utilidad.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/7.png' alt="Imagen decorativa")
-        .row.justify-content-center
+        .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de cartón
             p Solo son usadas para cargas ligeras y su vida útil es muy corta.
