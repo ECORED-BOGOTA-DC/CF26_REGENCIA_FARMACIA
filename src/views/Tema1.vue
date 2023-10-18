@@ -42,20 +42,17 @@
                 i.fas.fa-check.fa-li(style="color:#00BCD4;")
                 | Los datos de las etiquetas de marcación estén correctos.
         .col-lg-6.col-md-8.mb-lg-0.mb-4
-          .p-4.h-100.d-flex.align-content-center.flex-wrap(style="border:5px #FF9D00 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
+          .p-3.h-100.d-flex.align-content-center.flex-wrap(style="border:5px #FF9D00 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
             .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
               span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#FF9D00;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 3
             h5.mb-0.text-center.mt-5(data-aos="zoom-in") En ocasiones se reciben productos enviados por empresas de transporte, por lo cual además de revisar todo lo anteriormente mencionado, también se debe revisar:
-            ul.fa-ul.mt-3.mb-5
+            ul.fa-ul.mt-3
               li(data-aos="zoom-in")
                 i.fas.fa-check.fa-li(style="color:#00BCD4;")
-                | Los sellos de seguridad no estén violados.
+                | La guía de transporte, en la cual se verifica que la cantidad de cajas allí mencionadas coincidan con las entregadas.
               li(data-aos="zoom-in")
                 i.fas.fa-check.fa-li(style="color:#00BCD4;")
-                | El estado físico esté en perfectas condiciones.
-              li(data-aos="zoom-in")
-                i.fas.fa-check.fa-li(style="color:#00BCD4;")
-                | Los datos de las etiquetas de marcación estén correctos.
+                | Los datos del remitente y del destinatario, por lo general se debe firmar un documento como recibido y el mensajero entrega una copia, la cual se debe archivar con el acta de recepción como comprobante.
         .col-lg-6.col-md-8.mb-lg-0.mb-4
           .p-4.h-100.d-flex.align-content-center.flex-wrap(style="border:5px #7E5EE3 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
             .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
@@ -94,10 +91,10 @@
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
         p.mb-0 En el momento de revisar las etiquetas y los rótulos es importante tener presente la información que debe llevar el empaque primario y el empaque secundario.
     
-    p.mt-5(data-aos="fade-right") A continuación se presenta la información que como mínimo debe contener la rotulación de empaques primarios y secundarios:
+    p.mt-5(data-aos="fade-right") A continuación, se presenta la información que como mínimo debe contener la rotulación de empaques primarios y secundarios:
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
-      .row.col-lg-11.m-auto(titulo="(Blíster/ foil) para tabletas o comprimidos, tabletas recubiertas, grageas (envase primario) ")
+      .row.col-lg-11.m-auto(titulo="(<em>Blíster/ foil</em>) para tabletas o comprimidos, tabletas recubiertas, grageas (envase primario) ")
         .col-lg-7.order-lg-1.order-2
           ol.lista-ol--cuadro.mb-0
             li 
@@ -340,7 +337,7 @@
           span.text-bold 20
         | Nombre y firma del director técnico responsable.
     
-    p.mt-5(data-aos="fade-right") A continuación se presenta un acta de recepción que cumple con todos los criterios mencionados anteriormente:
+    p.mt-5(data-aos="fade-right") A continuación, se presenta un acta de recepción que cumple con todos los criterios mencionados anteriormente:
 
     figure.mt-5
       img(src='@/assets/curso/tema1/6.svg' data-aos="zoom-in-up" alt="Imagen que contiene un formato de acta de recepción, la cual incluye los 20 puntos indicados anteriormente")
@@ -390,19 +387,19 @@
           .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
             span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#8CBCFA;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 1
           h5.mb-0.text-center.mt-5(data-aos="zoom-in") Defecto crítico
-          p.mb-5.mt-4(data-aos="zoom-in") Es el que afecta completamente la capacidad de uso del producto o pone en riesgo la vida del paciente o usuario, por lo cual se considera peligroso e inseguro. Cuando un producto tiene un defecto crítico inmediatamente es rechazado (1.0%).
+          p.mb-5.mt-4(data-aos="zoom-in") Es el que afecta completamente la capacidad de uso del producto o pone en riesgo la vida del paciente o usuario, por lo cual se considera peligroso e inseguro. Cuando un producto tiene un defecto crítico inmediatamente es rechazado (1.0 %).
       .col-lg.col-md-8.mb-lg-0.mb-4
         .p-4.h-100.d-flex.flex-wrap(style="border:5px #00BCD4 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
           .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
             span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#00BCD4;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 2
           h5.mb-0.text-center.mt-5(data-aos="zoom-in") Defecto mayor
-          p.mb-5.mt-4(data-aos="zoom-in")  Es aquel que sin ser crítico afecta la capacidad de uso del producto reduciendo de forma considerable su utilidad (6.5%).
+          p.mb-5.mt-4(data-aos="zoom-in")  Es aquel que sin ser crítico afecta la capacidad de uso del producto reduciendo de forma considerable su utilidad (6.5 %).
       .col-lg.col-md-8
         .p-4.h-100.d-flex.flex-wrap(style="border:5px #FF9D00 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
           .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
             span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#FF9D00;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 3
           h5.mb-0.text-center.mt-5(data-aos="zoom-in") Defecto menor
-          p.mb-5.mt-4(data-aos="zoom-in") Es aquel que en ningún momento afecta la capacidad de uso del producto, ni reduce su utilidad. Cuando un producto tiene uno o varios defectos menores por lo general se acepta; pero se debe dejar la aclaración (15%).
+          p.mb-5.mt-4(data-aos="zoom-in") Es aquel que en ningún momento afecta la capacidad de uso del producto, ni reduce su utilidad. Cuando un producto tiene uno o varios defectos menores por lo general se acepta; pero se debe dejar la aclaración (15 %).
     
     .col-lg-10.m-auto.mt-5
       .p-4(style="background-color:#7E5EE3;border-radius:10px;")
@@ -441,6 +438,7 @@
         p.mt-4 Se muestra la tabla de códigos de tamaño de muestra (se aplica para los pasos 1 y 2). 
         figure.mt-4
           img(src="@/assets/curso/tema1/8.svg" alt="Imagen que contiene una tabla con los códigos de tamaño de muestra, los cuales están representados así: Tamaño de lote: DE: de 2 hasta 500.001 A: de 8 hasta mayores Niveles especiales de inspección: S1: de A hasta D S2: de A hasta E S3: de A hasta H S4: de A hasta K Niveles generales de inspección: I: de A hasta N II: de A hasta Q III: de B hasta R")
+          figcaption 
       .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 3: seleccionar el plan de muestreo" style="background-color:#D9F5F9;")
         h5 PASO 3: seleccionar el plan de muestreo
         p.mt-4 Pueden ser simples, dobles o múltiples y cabe la posibilidad de combinarlos de acuerdo con las necesidades de inspección. En farmacia normalmente se utiliza el simple que consiste en un tamaño de muestra (n) y un número de aceptabilidad (Ac). Al realizar el muestreo se acepta el lote si las unidades con defectos están iguales o por debajo del Ac y se rechaza si están por encima del Ac.
@@ -475,9 +473,9 @@
       .tarjeta.color-acento-botones.p-4.tarjeta_1(titulo="PASO 7: determinar el nivel de aceptabilidad" style="background-color:#D9F5F9;")
         h5 PASO 7: determinar el nivel de aceptabilidad  
         p.mt-4 Se utiliza la segunda tabla denominada “Nivel aceptable de calidad NAC”, para los cuales existe una diferente por cada plan de muestreo (simple, doble, múltiple) y cada tipo de inspección (normal, estricta, reducida). Los niveles que se tiene presente son de acuerdo con los defectos (crítico 1.0 %, mayor 6.5 % y menor 15 %) y se aplica la tabla de muestreo simple para inspección normal.
-        p.mt-4 Inicialmente, se ubica la letra que fue arrojada en el paso anterior, esta a su vez  muestra el tamaño de la muestra (cantidad de productos a inspeccionar), posterior se marca una línea horizontal hasta el nivel aceptable de calidad (1.0%, 6.5% o 15%) y finalmente desde allí se marca una línea vertical formando una L.
+        p.mt-4 Inicialmente, se ubica la letra que fue arrojada en el paso anterior, esta a su vez  muestra el tamaño de la muestra (cantidad de productos a inspeccionar), posterior se marca una línea horizontal hasta el nivel aceptable de calidad (1.0 %, 6.5 % o 15 %) y finalmente desde allí se marca una línea vertical formando una L.
         figure.mt-4
-          img(src="@/assets/curso/tema1/15.svg" alt="Imagen que contiene una ejemplo con el formato denominado Nivel aceptable de calidad NAC")
+          img(src="@/assets/curso/tema1/15.png" alt="Imagen que contiene una ejemplo con el formato denominado Nivel aceptable de calidad NAC")
         p.mt-4 En el ejemplo de la imagen se tendría:
         p.mb-0 Para defecto crítico se acepta (Ac) con 2 unidades y se rechaza (Re) con 3 unidades.
         p.mb-0 Para defecto mayor se acepta (Ac) con 10 unidades y se rechaza (Re) con 11 unidades.

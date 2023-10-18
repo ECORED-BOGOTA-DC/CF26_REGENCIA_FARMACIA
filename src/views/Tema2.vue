@@ -9,7 +9,7 @@
 
     p(data-aos="fade-right") Estos son todos los equipos, instrumentos y materiales necesarios para el cumplimiento de los objetivos de las actividades y los procedimientos que se realizan en determinada área.
     p.mt-4(data-aos="fade-right") El área de recepción debe contar con varios materiales, instrumentos y equipos para su buen funcionamiento como mesón, lapicero, tabla de apoyo y buena iluminación.
-    p.mt-4(data-aos="fade-right") A continuación se mencionarán dos equipos, que sin dejar de ser importantes los demás, son fundamentales para evitar errores de digitación y conservar la calidad de los productos.
+    p.mt-4(data-aos="fade-right") A continuación, se mencionarán dos equipos, que sin dejar de ser importantes los demás, son fundamentales para evitar errores de digitación y conservar la calidad de los productos.
 
     Separador
     .titulo-segundo(data-aos="fade-right")
@@ -61,7 +61,7 @@
 
     .col-xl-8.col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5.d-block Figura 1
+        h5 Figura 1.
         span Cómo se lee un código de barras 
       figure.mt-5
         img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up" alt="Imagen que contiene un código de barras con la numeración 7702004003508, la cual significa: 770: País 2004: Código empresa 00350: Código producto 8: Digito verificación")
@@ -106,7 +106,7 @@
         .row.justify-content-center.px-3
           .col-lg-4.order-lg-1.order-2
             h5 Estibas de plástico
-            p Son de fácil limpieza y desinfección, son ligeras y 100% reciclables.
+            p Son de fácil limpieza y desinfección, son ligeras y 100 % reciclables.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/6.png' alt="Imagen decorativa")

@@ -113,7 +113,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/331502_CF26_DU.pdf',
+        download: 'downloads/331502_CF26_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -129,19 +129,12 @@ export default {
   },
   complementario: [
     {
-      tema: 'Clasificación de defectos o niveles de aceptabilidad',
-      referencia:
-        'INVIMA. (2002). <em>Manual de normas técnicas de calidad, guía técnica de análisis</em>. INVIMA.',
-      tipo: 'Documento',
-      descarga: '/downloads/Anexo2_CF026_MNTC.pdf',
-    },
-    {
       tema: 'Verificación técnica',
       referencia:
         'Unidad Administrativa Especial de Catastro Distrital. (2011). <em>Instructivo para la elaboración de muestreo/em>. Unidad Administrativa Especial de Catastro Distrital.',
       tipo: 'Documento',
-      descarga:
-        '/downloads/Anexo1_CF026_instructivo_para_la_elaboracion_de_Muestreos.pdf',
+      link:
+        'https://www.ideca.gov.co/sites/default/files/documentacion/instructivo-para-la-elaboracion-de-muestreos11.pdf',
     },
     {
       tema: 'Tabla militar',
@@ -163,7 +156,7 @@ export default {
         'pieza de metal que sirve para sujetar el cierre de botellas, frascos, etc.',
     },
     {
-      termino: 'Blister',
+      termino: '<em>Blister</em>',
       significado:
         'envase unitario para varios manufacturados pequeños, que consiste en un soporte de cartón o cartulina sobre la que va pegada una lámina de plástico transparente con cavidades en las que se alojan los distintos artículos.',
     },
@@ -287,6 +280,12 @@ export default {
         'Capitalcolombia.com. (s.f.). <em>¿Qué es el código de barras?</em> Capitalcolombia.com.',
       link:
         'https://www.capitalcolombia.com/articulo/informacion_que_es_codigo_de_barras',
+    },
+    {
+      referencia:
+        'ICONTEC. (2007). <em>Procedimientos de muestreo para inspección por atributos parte 10: introducción a la serie de normas NTC-ISO 2859 sobre el muestreo para inspección por atributos. Requisitos (NTC- ISO 2859-10). </em>',
+      link:
+        'https://www.soefecepp.com/wp-content/uploads/2021/07/fdocuments.net_ntc-iso-2859-10pdf.pdf',
     },
     {
       referencia:
