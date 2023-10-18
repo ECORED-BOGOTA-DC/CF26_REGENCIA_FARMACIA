@@ -476,6 +476,7 @@
         p.mt-4 Inicialmente, se ubica la letra que fue arrojada en el paso anterior, esta a su vez  muestra el tamaño de la muestra (cantidad de productos a inspeccionar), posterior se marca una línea horizontal hasta el nivel aceptable de calidad (1.0 %, 6.5 % o 15 %) y finalmente desde allí se marca una línea vertical formando una L.
         figure.mt-4
           img(src="@/assets/curso/tema1/15.png" alt="Imagen que contiene una ejemplo con el formato denominado Nivel aceptable de calidad NAC")
+          figcaption Fuente: NTC-ISO 2859-1
         p.mt-4 En el ejemplo de la imagen se tendría:
         p.mb-0 Para defecto crítico se acepta (Ac) con 2 unidades y se rechaza (Re) con 3 unidades.
         p.mb-0 Para defecto mayor se acepta (Ac) con 10 unidades y se rechaza (Re) con 11 unidades.
